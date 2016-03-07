@@ -1,0 +1,275 @@
+# http://ota.org/media/23184/97042.18Spine-S129-S132.pdf
+spine:
+  cervical:
+    compression:
+        "impaction": 51A1
+        "split": 51A2
+        "burst": 51A3
+    distraction:
+        "posterior disruption ligamentous": 52B1
+        "posterior disruption osseous": 52B2
+        "anterior disruption through disc": 52B3
+    multidirectional:
+        "rotational wedge": 51C1
+        "flexion subluxation with rotation": 51C2
+        "rotational shear injury": 51C3
+  thoracic:
+    compression:
+        "impaction": 52A1
+        "split": 52A2
+        "burst": 52A3
+    distraction:
+        "posterior disruption ligamentous": 52B1
+        "posterior disruption osseous": 52B2
+        "anterior disruption through disc": 52B3
+    multidirectional:
+        "rotational wedge": 52C1
+        "flexion subluxation with rotation": 52C2
+        "rotational shear injury": 52C3
+  lumbar:
+    compression:
+        "impaction": 53A1
+        "split": 53A2
+        "burst": 53A3
+    distraction:
+        "posterior disruption ligamentous": 53B1
+        "posterior disruption osseous": 53B2
+        "anterior disruption through disc": 53B3
+    multidirectional:
+        "rotational wedge": 53C1
+        "flexion subluxation with rotation": 53C2
+        "rotational shear injury": 53C3
+
+humerus:
+  proximal:
+    extraarticular unifocal:
+        "tuberosity": 11A1
+        "impacted metaphyseal": 11A2
+        "nonimpacted metaphyseal": 11A3
+    extraarticular bifocal:
+        "with metaphyseal impaction": 11B1
+        "without metaphyseal impaction": 11B2
+        "with glunohumeral dislocation": 11B3
+    articular:
+        "with slight displacement": 11C1
+        "impacted displacement": 11C2
+        "dislocated": 11C3
+
+  diaphyseal:
+    simple:
+        "spiral": 12A1
+        "oblique": 12A2
+        "transverse": 12A3
+    wedge:
+        "spiral wedge": 12B1
+        "bending wedge": 12B2
+        "fragmented wedge": 12B3
+    complex:
+        "spiral": 12C1
+        "segmental": 12C2
+        "irregular": 12C3
+
+  distal:
+    extraarticular:
+        "apophyseal avulsion": 13A1
+        "metaphyseal avulsion": 13A2
+        "metaphyseal multifragmentary": 13A3
+    partial articular:
+        "sagittal lateral condyle": 13B1
+        "sagittal medial condyle": 13B2
+        "coronal": 13B3
+    complete articular:
+        "articular simple, metaphyseal simple": 13C1
+        "articular simple, metaphyseal multifragmentary": 13C2
+        "articular multifragmentary": 13C3
+
+"radius / ulna":
+  proximal:
+    extraarticular:
+        "ulna fractured, radius intact": 21A1
+        "radius fractured, ulna intact": 21A2
+        "both bones": 21A3
+    articular:
+        "ulna fractured, radius intact": 21B1
+        "radius fractured, ulna intact": 21B2
+        "one bone articular fracture, other extraarticular": 21B3
+    articular_both_bones:
+        "simple": 21C1
+        "one artic. simple, other artic. multifragmentary": 21C2
+        "multifragmentary": 21C3
+
+  diaphyseal:
+    simple:
+        "ulna fractured, radius intact": 22A1
+        "radius fractured, ulna intact": 22A2
+        "both bones": 22A3
+    wedge:
+        "ulna fractured, radius intact": 22B1
+        "radius fractured, ulna intact": 22B2
+        "one bone wedge, other simple or wedge": 22B3
+    complex:
+        "ulna fractured, radius intact": 22C1
+        "radius complex, ulna simple": 22C2
+        "both bones complex": 22C3
+
+  distal:
+    extraarticular:
+        "ulna fractured, radius intact": 23A1
+        "radius, simple and impacted": 23A2
+        "radius, multifragmentary": 23A3
+    partial articular radius:
+        "sagittal": 23B1
+        "coronal, dorsal rim": 23B2
+        "coronal, palmar rim": 23B3
+    complete articular radius:
+        "articular simple, metaphyseal simple": 23C1
+        "articular simple, metaphyseal multifragmentary": 23C2
+        "articular multifragmentary": 23C3
+
+femur:
+  proximal:
+    troch:
+        "pertrochanteric simple": 31A1
+        "pertrochanteric multifragmentary": 31A2
+        "intertrochanteric": 31A3
+    neck:
+        "subcapital, with slight displacement": 31B1
+        "transcervical": 31B2
+        "subcapital, displaced, nonimpacted": 31B3
+    head:
+        "split (Pipkin)": 31C1
+        "with depression": 31C2
+        "with neck fracture": 31C3
+
+  shaft:
+    simple:
+        "spiral": 32A1
+        "oblique": 32A2
+        "transverse": 32A3
+        "spiral, subtrochanteric fracture": 32A1.1
+        "oblique, subtrochanteric fracture": 32A2.1
+        "transverse, subtrochanteric fracture": 32A3.1
+    wedge:
+        "spiral wedge": 32B1
+        "bending wedge": 32B2
+        "fragmented wedge": 32B3
+        "spiral wedge, subtrochanteric fracture": 32B1.1
+        "bending wedge, subtrochanteric fracture": 32B2.1
+        "fragmented wedge, subtrochanteric fracture": 32B3.1
+    complex:
+        "spiral": 32C1
+        "fragmental": 32C2
+        "irregular": 32C3
+        "spiral, subtrochanteric fracture": 32C1.1
+        "fragmental, subtrochanteric fracture": 32C2.1
+        "irregular, subtrochanteric fracture": 32C3.1
+
+  distal:
+    extra:
+        "simple": 33A1
+        "metaphyseal wedge and/or fragmented wedge": 33A2
+        "metaphyseal complex": 33A3
+    partial:
+        "lateral condyle, sagittal": 33B1
+        "medial condyle, sagittal": 33B2
+        "coronal": 33B3
+    complete:
+        "articular simple, metaphyseal simple": 33C1
+        "articular simple, metaphyseal multifragmentary": 33C2
+        "articular multifragmentary": 33C3
+
+patella:
+  extra:
+      avulsion: 34A1
+      "isolated body": 34A2
+  partial:
+      "vertical, lateral": 34B1
+      "vertical, medial": 34B2
+  complete:
+      transverse: 34C1
+      "transverse plus second fragment": 34C2
+      complex: 34C3
+
+tibia:
+  proximal:
+    extra:
+        "avulsion": 41A1
+        "metaphyseal simple": 41A2
+        "metaphyseal multifragmentary": 41A3
+    partial:
+        "pure split": 41B1
+        "pure depression": 41B2
+        "split-depression": 41B3
+    complete:
+        "articular simple, metaphyseal simple": 41C1
+        "articular simple, metaph multifragmentary": 41C2
+        "articular multifragmentary": 41C3
+  shaft:
+    simple:
+        "spiral": 42A1
+        "oblique (≥ 30°)": 42A2
+        "transverse (< 30°)": 42A3
+    wedge:
+        "spiral wedge": 42B1
+        "bending wedge": 42B2
+        "fragmented wedge": 42B3
+    complex:
+        "spiral": 42C1
+        "segmental": 42C2
+        "irregular": 42C3
+  distal:
+    extra:
+        "simple": 43A1
+        "wedge": 43A2
+        "complex": 43A3
+    partial:
+        "pure split": 43B1
+        "split-depression": 43B2
+        "multifragmentary depression": 43B3
+    complete:
+        "articular simple, metaphyseal simple": 43C1
+        "articular simple, metaphyseal multifragmentary": 43C2
+        "articular multifragmentary": 43C3
+
+malleolar:
+  infrasyndesmotic lesion:
+        "isolated": 44A1
+        "with fractured medial malleolus": 44A2
+        "with posteromedial fracture": 44A3
+  transsyndesmotic fibular:
+        "isolated": 44B1
+        "with medial lesion": 44B2
+        "with medial lesion and Volkmann's fracture": 44B3
+  suprasyndesmotic lesion:
+        "fibular diaphyseal fracture, simple": 44C1
+        "fibular diaphyseal fracture, multifragmentary": 44C2
+        "proximal fibular lesion": 44C3
+
+# http://ota.org/media/23066/97042.7Pelvis-S59-S67.pdf
+pelvis:
+  pelvic ring:
+    stable:
+        "fracture of innominate bone, avulsion": 61A1
+        "fracture of innominate bone, direct blow": 61A2
+        "transverse fracture of sacrum and coccyx": 61A3
+    partially stable:
+        "unilateral, partial disruption of posterior arch, external rotation (\"open-book\" injury)": 61B1
+        "unilateral, partial disruption of posterior arch, internal rotation (lateral compression injury)": 61B2
+        "Bilateral, partial lesion of posterior arch": 61B3
+    unstable:
+        "unilateral, complete disruption of posterior arch": 61C1
+        "bilateral, ipsilateral complete, contralateral incomplete": 61C2
+        "bilateral, complete disruption": 61C3
+  acetabulum:
+    partial one column:
+        "posterior wall": 62A1
+        "posterior column": 62A2
+        "anterior": 62A3
+    partial transverse:
+        "transverse": 62B1
+        "t-shaped": 62B2
+        "anterior column, posterior hemi-transverse": 62B3
+    complete:
+        "high": 62C1
+        "low": 62C2
+        "involving sacroiliac": 62C3
