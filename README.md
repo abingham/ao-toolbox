@@ -49,4 +49,4 @@ example on a webpage. These clicks can be detected and, since the click can be
 made to refer to the SVG elements from which they originate, programs can
 determine which bone segment/side was clicked based on the name of the element.
 
-(This image is based on a public domain image originally created by Mariana Ruiz Villarreal and [distributed through wikimedia](https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg).)
+*(This image is based on a public domain image originally created by [Mariana Ruiz Villarreal/LadyofHats](https://commons.wikimedia.org/wiki/User:LadyofHats) and [distributed through wikimedia](https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg).)*
