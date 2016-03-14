@@ -22,3 +22,29 @@ components in the YAML filenames. For example, the English translation is in
 
 The data content of these files will all be identical, independent of
 language.
+
+## SVG images
+
+The second element of the toolbox is a collection of images for selecting
+fractures based on AO classification.
+
+### skeleton.svg
+
+This is an SVG image of a skeleton with embedded structure to make it possible
+to click on AO bone sections. In the image there is a layer called "click". This
+layer is a the top of the Z-order, and it contains shapes which overlay the
+various AO bone sections. For example, there is a shape that directly overlays
+the proximal femur.
+
+These overlay shapes are named in such a way that the names identify the AO
+prefix and, if appropriate, side of the body of the bone section that they
+overlay. The naming pattern is "ao-clickable-<prefix>[-<side>]". So, continuing
+the example above, the shape overlaying the proximal femur on the left side of
+the body (the *right* side of the image as displayed on-screen) is named
+"ao-clickable-31-left". The "31" indicates the AO classification prefix for
+proximal femur, i.e. 31. The "left" indicates the side of the body.
+
+The intended use of this image is to allow users to click on the skeleton, for
+example on a webpage. These clicks can be detected and, since the click can be
+made to refer to the SVG elements from which they originate, programs can
+determine which bone segment/side was clicked based on the name of the element.
