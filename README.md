@@ -23,7 +23,7 @@ components in the YAML filenames. For example, the English translation is in
 The data content of these files will all be identical, independent of
 language.
 
-## SVG images
+## Images
 
 The second element of the toolbox is a collection of images for selecting
 fractures based on AO classification.
