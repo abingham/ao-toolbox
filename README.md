@@ -11,7 +11,7 @@ largely technology-agnostic yet programming-friendly representation of AO
 classification data.
 
 The data in these files currently includes localization (bone and segment) and
-morphology (fracture type, group, and, if application, subgroup).
+morphology (fracture type, group, and, if applicable, subgroup).
 
 Translations of the AO data will be supplied through different versions of the
 YAML data. The language will be indicated by
