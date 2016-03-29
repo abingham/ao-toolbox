@@ -1,0 +1,20 @@
+humerus:
+  proximal:
+    epiphyseal:
+      simple:
+        epiphysiolysis, SH I: 11-E/1.1
+        epiphysiolysis with metaphyseal wedge, SH II: 11-E/2.1
+        epiphyseal, SH III: 11-E/3.1
+        epi-/metaphyseal, SH VI: 11-E/4.1
+        intraarticular flake: 11-E/8.1
+      multifragmentary:
+        epiphysiolysis with metaphyseal wedge, SH II: 11-E/2.2
+        epiphyseal, SH III: 11-E/3.2
+        epi-/metaphyseal, SH VI: 11-E/4.2
+        intraarticular flake: 11-E/8.2
+    metaphyseal:
+      simple:
+        torus/buckle: 11-M/2.1
+        complete: 11-M/3.1
+      multifragmentary:
+        complete: 11-M/3.2
