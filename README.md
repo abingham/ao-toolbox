@@ -18,7 +18,7 @@ YAML data. The language will be indicated by
 [ISO 639-1](http://www.loc.gov/standards/iso639-2/php/English_list.php)
 components in the YAML filenames. For example, the English translation is in
 `ao_codes.EN.yaml`, and the Norwegian Bokmål translation is (or soon will be) in
-'ao_codes.NB.yaml'.
+`ao_codes.NB.yaml`.
 
 The data content of these files will all be identical, independent of
 language.
