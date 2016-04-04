@@ -33,13 +33,12 @@ humerus:
         complete with contact between fracture planes: 13-M/3.1 III
         complete without contact between fracture planes: 13-M/3.1 IV
         avulsion of the epicondyle (extraarticular): 13-M/7m
-     multifragmentary:
-        incomplete, displaced: 13-M/3.1 II
-        complete with contact between fracture planes: 13-M/3.1 III
-        complete without contact between fracture planes: 13-M/3.1 IV
-        avulsion of the epicondyle (extraarticular): 13-M/7m
-     epiphyseal:
-       simple:
+      multifragmentary:
+        incomplete, displaced: 13-M/3.2 II
+        complete with contact between fracture planes: 13-M/3.2 III
+        complete without contact between fracture planes: 13-M/3.2 IV
+    epiphyseal:
+      simple:
         epiphysiolysis, SH I: 13-E/1.1
         epiphysiolysis with metaphyseal wedge, SH II: 13-E/2.1
         epiphyseal, SH III: 13-E/3.1
@@ -70,22 +69,104 @@ radius/ulna:
         epiphyseal, SH III: 21r-E/3.2
         epi-/metaphyseal, SH IV: 21r-E/4.2
     metaphyseal:
-      simple:
-        isolated to radius:
+      isolated to radius:
+        simple:
           torus/buckle: 21r-M/2.1
           complete, no angulation and no displacement: 21r-M/3.1 I
           complete, angulation with displacement of upto half of the bone diameter: 21r-M/3.1 II
           complete, angulation with displacement of more than half of the bone diameter: 21r-M/3.1 III
-        isolated to ulna:
+        multifragmentary:
+          complete, no angulation and no displacement: 21r-M/3.2 I
+          complete, angulation with displacement of upto half of the bone diameter: 21r-M/3.2 II
+          complete, angulation with displacement of more than half of the bone diameter: 21r-M/3.2 III
+      isolated to ulna:
+        simple:
           torus/buckle: 21u-M/2.1
           complete: 21u-M/3.1
           greenstick, dorsal radial head dislocation (Bado II): 21u-M/6.1
           avulsion of the apophysis: 21u-M/7
-      multifragmentary:
-        isolated to the radius:
-          complete, no angulation and no displacement: 21r-M/3.2 I
-          complete, angulation with displacement of upto half of the bone diameter: 21r-M/3.2 II
-          complete, angulation with displacement of more than half of the bone diameter: 21r-M/3.2 III
-        isolated to ulna:
+        multifragmentary:
           complete: 21u-M/3.2
           greenstick, lateral radial head dislocation (Bado III): 21u-M/6.1
+  diaphyseal:
+    both bones:
+      simple:
+        bowing: 22-D/1.1
+        greenstick: 22-D/2.1
+        complete transverse (≤ 30°): 22-D/4.1
+        complete oblique or spiral (> 30°): 22-D/5.1
+      multifragmentary:
+        complete transverse (≤ 30°): 22-D/4.2
+        complete oblique or spiral (> 30°): 22-D/5.2
+    isolated to radius:
+      simple:
+        bowing: 22r-D/1.1
+        greenstick: 22r-D/2.1
+        complete transverse (≤ 30°): 22r-D/4.1
+        complete oblique or spiral (> 30°): 22r-D/5.1
+        galeazzi: 22r-D/7.1
+      multifragmentary:
+        complete transverse (≤ 30°): 22r-D/4.2
+        complete oblique or spiral (> 30°): 22r-D/5.2
+        galeazzi: 22r-D/7.2
+    isolated to ulna:
+      simple:
+        bowing: 22u-D/1.1
+        greenstick: 22u-D/2.1
+        complete transverse (≤ 30°): 22u-D/4.1
+        complete oblique or spiral (> 30°): 22u-D/5.1
+        monteggia: 22u-D/6.1
+      multifragmentary:
+        complete transverse (≤ 30°): 22u-D/4.2
+        complete oblique or spiral (> 30°): 22u-D/5.2
+        monteggia: 22u-D/6.2
+  distal:
+    metaphyseal:
+      both bones:
+        simple:
+          torus/buckle: 23-M/2.1
+          complete: 23-M/3.1
+        multifragmentary:
+          complete: 23-M/3.2
+      isolated to radius:
+        simple:
+          torus/buckle: 23r-M/2.1
+          complete: 23r-M/3.1
+        multifragmentary:
+          complete: 23r-M/3.2
+      isolated to ulna:
+        simple:
+          torus/buckle: 23u-M/2.1
+          complete: 23u-M/3.1
+        multifragmentary:
+          complete: 23u-M/3.2
+    epiphyseal:
+      both bones:
+        simple:
+          epiphysiolysis, SH I: 23-E/1.1
+          epiphysiolysis with metaphyseal wedges, SH II: 23-E/2.1
+          epiphyseal, SH III: 23-E/3.1
+          epi-/metaphyseal, SH IV: 23-E/4.1
+          avulsion of the styloid: 23-E/7
+        multifragmentary:
+          epiphysiolysis with metaphyseal wedges, SH II: 23-E/2.2
+      isolated to radius:
+        simple:
+          epiphysiolysis, SH I: 23r-E/1
+          epiphysiolysis with metaphyseal wedge, SH II: 23r-E/2.1
+          epiphyseal, SH III: 23r-E/3
+          epi-/metaphyseal, SH IV: 23r-E/4.1
+          avulsion of the styloid: 23r-E/7
+        multifragmentary:
+          epiphysiolysis with metaphyseal wedge, SH II: 23r-E/2.2
+          epi-/metaphyseal, SH IV: 23r-E/4.2
+      isolated to ulna:
+        simple:
+          epiphysiolysis, SH I: 23u-E/1.1
+          epiphysiolysis with metaphyseal wedge, SH II: 23u-E/2.1
+          epiphyseal, SH III: 23u-E/3
+          epi-/metaphyseal, SH IV: 23u-E/4.1
+          avulsion of the styloid: 23u-E/7
+        multifragmentary:
+          epiphysiolysis with metaphyseal wedge, SH II: 23u-E/2.2
+          epi-/metaphyseal, SH IV: 23u-E/4.2
