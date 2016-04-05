@@ -169,3 +169,56 @@ radius/ulna:
         multifragmentary:
           epiphysiolysis with metaphyseal wedge, SH II: 23u-E/2.2
           epi-/metaphyseal, SH IV: 23u-E/4.2
+
+femur:
+  proximal:
+    epiphyseal:
+      simple:
+        epiphysiolysis (SUFE/SCFE), SH I: 31-E/1.1
+        epiphysiolysis (SUFE/SCFE) with metaphyseal wedge, SH II: 31-E/2.1
+        avulsion of/by the ligament of the head of the femur: 31-E/7
+        intraarticular flake: 31-E/8.1
+      multifragmentary:
+        intraarticular flake: 31-E/8.2
+    metaphyseal:
+      simple:
+        incomplete midcervical: 31-M/2.1 I
+        incomplete basicervical: 31-M/2.1 II
+        incomplete transtrochanteric: 31-M/2.1 III
+        complete midcervical: 31-M/3.1 I
+        complete basicervical: 31-M/3.1 II
+        complete transtrochanteric: 31-M/3.1 III
+        avulsion of thre greater or less trochanter: 31-M/7
+      multifragmentary:
+        complete midcervical: 31-M/3.2 I
+        complete basicervical: 31-M/3.2 II
+        complete transtrochanteric: 31-M/3.2 III
+  diaphyseal:
+    simple:
+      complete transverse (≤ 30°): 32-D/4.1
+      complete oblique or spiral (> 30°): 32-D/5.1
+    multifragmentary:
+      complete transverse (≤ 30°): 32-D/4.2
+      complete oblique or spiral (> 30°): 32-D/5.2
+  distal:
+    metaphyseal:
+      simple:
+        torus/buckle: 33-M/2.1
+        complete: 33-M/3.1
+        bilateral avulsion: 33-M/7
+        medial avulsion: 33-M/7m
+        lateral avulsion: 33-M/7l
+      multifragmentary:
+        complete: 33-M/3.2
+    epiphyseal:
+      simple:
+        epiphysiolysis, SH I: 33-E/1.1
+        epiphysiolysis with metaphyseal wedge, SH II: 33-E/2.1
+        epiphyseal, SH III: 33-E/3.1
+        epi-/metaphyseal, SH IV: 33-E/4.1
+        intraarticular flake: 33-E/8.1
+      multifragmentary:
+        epiphysiolysis with metaphyseal wedge, SH II: 33-E/2.2
+        epiphyseal, SH III: 33-E/3.2
+        epi-/metaphyseal, SH IV: 33-E/4.2
+        intraarticular flake: 33-E/8.2
