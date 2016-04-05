@@ -6,9 +6,9 @@ spine:
         "split": 51A2
         "burst": 51A3
     distraction:
-        "posterior disruption ligamentous": 52B1
-        "posterior disruption osseous": 52B2
-        "anterior disruption through disc": 52B3
+        "posterior disruption ligamentous": 51B1
+        "posterior disruption osseous": 51B2
+        "anterior disruption through disc": 51B3
     multidirectional:
         "rotational wedge": 51C1
         "flexion subluxation with rotation": 51C2
